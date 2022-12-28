@@ -1,0 +1,79 @@
+.yazi{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto;
+    width: 50vw;
+}
+.yazi1{
+    background-color: chartreuse;
+    transform: rotateX(180deg);
+}
+.yazi2{
+    background-color: crimson;
+    transform: rotateY(180deg);
+}
+.yazi3{
+    background-color:blue;
+    transform: rotate(25deg);
+    transform-origin: left center;
+}
+.yazi4{
+    background-color: rgb(255, 123, 0);
+    transform: scaleX(1.3);
+}
+.yazi5{
+    background-color:coral;
+    transform: scaleY(1.9);
+}
+.yazi6{
+    background-color: cyan;
+    
+}
+.yazi6:hover{
+    transform: scale(2);
+    transform: rotate(50deg);
+    color: green;
+    border-radius: 10px solid red;
+    transition-delay: 1s;
+}
+}
+img{
+
+    transform: rotate(8deg);
+}
+img:hover{
+
+    transform: scale(0.7);
+    color: green;
+    transition-delay: 1s;
+}
+.box{
+    background-color: crimson;
+    width: 100px;
+    font-weight: 800;
+    height: 50px;
+    /* transition: background-color 3s, width 3s; */
+    /* transition-duration:2s;
+    transition-property: width;
+    transition-delay: 1.5s;
+    transition-timing-function: ease; */
+    transition: all 2s;
+}
+.X:hover{
+transform: translateX(50px);
+background-color: cadetblue;
+width: 200px;
+height: 200px;
+}
+.Y{
+transform: translateX(150px);
+
+}
+.XY{
+transform: translateX(100px,50px)
+
+}
+.XY:active{
+
+    transform: translate(-50px,40px);
+}
